@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div>
-      <div className='bg-[#316ff6] w-full h-[90vh]'>
+      <div className='bg-[#316ff6] w-full h-[90vh] shadow-lg'>
         <div className='flex flex-row gap-32 items-center justify-evenly h-full px-6'>
           <div className='text-white px-16 mt-8'>
             <h1 className='text-3xl font-semibold'>Blugle Medical Services</h1>
