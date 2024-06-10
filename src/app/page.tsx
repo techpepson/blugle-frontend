@@ -1,9 +1,10 @@
+import Home from '@/pages/Home'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <h1 className='text-5xl font-bold text-green-500'>Home Page</h1>
+      <Home/>
     </div>
   )
 }
